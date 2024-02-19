@@ -10,12 +10,13 @@ function Products() {
     return(
         <div className='s'>
         <div>
-        <Car src={toyota} discription='good old toyota' color='blue' brand='toyota'/>
-        <Car src={ford} discription='idk i ran out of ideas' color='black' brand='ford'/>
+        <Car src={toyota} discription='
+Toyota is world-famous as the manufacturer of high-quality, high-value cars' color='blue' brand='toyota'/>
+        <Car src={ford} discription=' design, and engineering, it's no surprise that Ford always comes out ahead among other names in the auto industry' color='black' brand='ford'/>
         </div>
         <div>
-        <Car src={bm} discription='a classic' color='blue' brand='BMW'/>
-        <Car src={mer} discription='a better classic' color='black' brand='mercedes benz'/>
+        <Car src={bm} discription=' high-performance engines and precise handling, which combine to create a thrilling driving experience' color='blue' brand='BMW'/>
+        <Car src={mer} discription='Mercedes Benz's reputation for reliability, quality, luxury, performance, safety, and advanced technology sets it apart from many other car brands. ' color='black' brand='mercedes benz'/>
         </div>
         </div>
     );
